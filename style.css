@@ -1,0 +1,42 @@
+html, body{
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #000;
+    direction: rtl;
+    font-family: 'Secular One', sans-serif;
+    background-image: url('assets/bg.jpg')
+
+}
+img{
+    width: 100%;
+}
+.form{
+    /* width: fit-content; */
+    margin: auto;
+    padding: 1vh 1vw;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+}
+.content{
+    margin: 0 auto;
+}
+
+.banner-img{
+    max-width: 400px;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.colored-text{
+    color: #ed2227;
+}
+p{
+    font-size: 1.1em;
+}
